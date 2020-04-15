@@ -1,0 +1,102 @@
+<meta charset="UTF-8">
+<title>Francis Light</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<style>
+
+/* Uncle Face */
+body {
+  background-color: #02020f;
+}
+.canvas {
+    margin-top: 5%;
+    max-height: 600px;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: relative;
+}
+.canvas svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.canvas svg {
+  position: relative;
+}
+.canvas svg.ears {
+  top: -110px;
+  -webkit-transform: translateZ(40px);
+          transform: translateZ(40px);
+}
+.canvas svg.face {
+  top: -380px;
+  -webkit-transform: translateZ(60px);
+          transform: translateZ(60px);
+}
+.canvas svg.wringles {
+  top: -780px;
+  -webkit-transform: translateZ(80px);
+          transform: translateZ(80px);
+}
+.canvas svg.lips {
+  top: -765px;
+  -webkit-transform: translateZ(140px);
+          transform: translateZ(140px);
+}
+.canvas svg.beard {
+  top: -860px;
+  -webkit-transform: translateZ(120px);
+          transform: translateZ(120px);
+}
+.canvas svg.nose {
+  top: -950px;
+  -webkit-transform: translateZ(140px);
+          transform: translateZ(140px);
+}
+.canvas svg.eyes {
+  top: -1070px;
+  -webkit-transform: translateZ(100px);
+          transform: translateZ(100px);
+}
+.canvas svg.eyes .eye_lids {
+  fill: rgba(87, 47, 28, 0);
+  -webkit-animation: blink 5s infinite;
+          animation: blink 5s infinite;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes blink {
+  0% {
+    fill: rgba(87, 47, 28, 0);
+  }
+  5% {
+    fill: #572f1c;
+  }
+  7% {
+    fill: rgba(87, 47, 28, 0);
+  }
+}
+@keyframes blink {
+  0% {
+    fill: rgba(87, 47, 28, 0);
+  }
+  5% {
+    fill: #572f1c;
+  }
+  7% {
+    fill: rgba(87, 47, 28, 0);
+  }
+}
+.canvas svg.glasses {
+  top: -1120px;
+  -webkit-transform: translateZ(140px);
+          transform: translateZ(140px);
+}
+.canvas svg.eyebrows {
+  top: -1230px;
+  -webkit-transform: translateZ(100px);
+          transform: translateZ(100px);
+}
+
+</style>
